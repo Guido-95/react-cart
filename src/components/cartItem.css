@@ -1,0 +1,38 @@
+.cart-item{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+    place-items: center;
+    margin: 100px 0px;
+}
+
+.qty-selector{
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+}
+.qty-selector > button{
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.qty-selector > .add{ 
+    color: rgb(65, 190, 231);
+}
+.qty-selector > .remove{
+    color: red;
+}
+
+
+.product-image{
+    width:150px;
+    border: 2px solid white;
+}
+.remove-item{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+}

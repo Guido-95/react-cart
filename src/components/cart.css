@@ -1,0 +1,22 @@
+
+.container-cart{
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+}
+.cart-info{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+    place-items: center;
+}
+hr{
+    margin-bottom: 20px;
+}
+.button-delete-all{
+    width: 100px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(235, 107, 107);
+    
+}
