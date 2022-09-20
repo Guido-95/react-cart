@@ -50,7 +50,6 @@ function AppProvider({children}) {
     },[]);
     useEffect(()=>{
         dispatch({ type: COSTO_TOTALE });
-
     },[state.products])
    
 

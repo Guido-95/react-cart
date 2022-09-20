@@ -9,7 +9,7 @@ function TotalBox() {
         <div className='total-box'>
             <h2>Carrello</h2>
             <hr />
-            <h2>{costoTotale ? costoTotale.toFixed(2) : 'caricamento..'}</h2>
+            <h2>{costoTotale > 0 ? costoTotale.toFixed(2) + '\u20AC' : 'inserisci un prodotto nel carrello'}</h2>
             <hr />
             <button>checkout</button>
         </div>
